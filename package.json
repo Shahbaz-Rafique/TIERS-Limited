@@ -264,8 +264,6 @@
     "yallist": "^3.1.1"
   },
   "scripts": {
-    "build": "tsc && npm run build:server",
-    "build:server": "tsc && node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "set NODE_ENV=development&& node app.js",
     "start-prod": "set NODE_ENV=production&& node app.js"

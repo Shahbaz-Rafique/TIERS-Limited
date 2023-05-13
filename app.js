@@ -13,5 +13,5 @@ app.use(bodyParser.urlencoded({
 }))
 app.use('/',require('./routers/index'))
 
-app.listen(8080);
+app.listen(3000);
 console.log('Listening on 3000')
